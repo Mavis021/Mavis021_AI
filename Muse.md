@@ -1,4 +1,4 @@
-<img src="https://github.com/fuseai-fellowship/personal-museum-guide/blob/main/frontend/src/Logohorwhite.svg" height="250" width="1118">  
+<img src="https://github.com/Mavis021/Mavis021_AI/blob/main/Assets/Logohorwhite.svg" height="250" width="1118">  
 
 **MUSE** is an application designed to enhance the museum visit by providing conversational insights about artifacts, making it easy for users to learn more about exhibits in a natural and immersive way. It uses a **Multi-label Classification Model** to recognize museum exhibits and chat with users through the **Retrieval-Augmented Generation (RAG)** model using OpenAI API. In addition to this, it includes a **Text-to-Speech** feature to offer a more interactive and engaging experience.
 
@@ -23,11 +23,11 @@ The system consists of the following components:
 
    - **Retrieval-Augmented Generation (RAG) Model:** Generates responses to user queries by combining retrieval of relevant text chunks from the museum knowledge base.
        
-     <img src="https://github.com/fuseai-fellowship/personal-museum-guide/blob/main/docs/Assets/rag.png" height="273" width="395">  
+     <img src="https://github.com/Mavis021/Mavis021_AI/blob/main/docs/Assets/rag.png" height="273" width="395">  
    - **Multi-Label Image Classification:** This component assigns one or more labels to each artifact. Given a new image for an exhibit it predicts the labels for it.
                
-     <img src="https://github.com/fuseai-fellowship/personal-museum-guide/blob/main/docs/Assets/modelarchflow.png" height="452" width="251">   
-     <img src="https://github.com/fuseai-fellowship/personal-museum-guide/blob/main/docs/Assets/modelarch.png" height="252" width="600"> 
+     <img src="https://github.com/Mavis021/Mavis021_AI/blob/main/docs/Assets/modelarchflow.png" height="452" width="251">   
+     <img src="https://github.com/Mavis021/Mavis021_AI/blob/main/docs/Assets/modelarch.png" height="252" width="600"> 
     
 4. **Speech Processing**
 For voice-based interactions, the system incorporates a Text-to-Speech(TTS) module that can provide spoken responses, by converting text answers into speech for users who prefer audio output.
